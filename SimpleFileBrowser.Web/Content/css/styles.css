@@ -1,0 +1,420 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font: normal 16px Arial, Helvetica, sans-serif;
+}
+
+h1, h3 {
+	font: normal 24px 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/*-----------------
+	The Header
+------------------*/
+
+header {
+	position: fixed;
+	top: 0;
+	left:0;
+	right:0;
+
+	height: 65px;
+	z-index: 100;
+
+	background-color: #282b2c;
+	padding: 20px 40px;
+	color: #fff;
+	box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.1);
+	min-width: 500px;
+}
+
+header a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+header h2.items-count {
+	float: right;
+	opacity:0.9;
+}
+
+@media (max-width: 500px) {
+
+	header {
+		padding: 20px 15px;
+	}
+
+	header h1 {
+		font-size: 24px;
+		margin: 0;
+	}
+
+}
+
+/*-----------------
+	Main Content
+------------------*/
+
+
+.main-content {
+	box-sizing: border-box;
+	text-align: center;
+	margin: 125px auto 60px;
+}
+
+.main-content h3 {
+	font-size: 28px;
+	color:  #5a96b9;
+	padding-bottom: 20px;
+}
+
+.main-content h4 {
+	color:  #646464;
+}
+
+@media (max-width: 600px) {
+
+	.main-content {
+		/* margin: 95px auto; */
+		padding: 0 25px;
+	}
+
+}
+
+/*-------------------
+	File & Directory Page
+--------------------*/
+
+/*	Uploader	*/
+
+.upload-wrapper {
+	box-sizing: border-box;
+	padding: 5px 0 5px 10px;
+	width: 400px;
+	background-color: #FFF;
+	border: 1px solid #DBE3E7;
+	border-radius: 3px;
+	box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.08);
+	/* position: fixed; */
+	text-align: left;
+	color: #2B2E31;
+	opacity: 0;
+	pointer-events: none;
+	margin: 0 auto 20px;
+}
+
+.upload-wrapper .btn-upload-wrapper {
+	display: inline-block;
+	margin: 10px 0 10px;
+}
+
+.upload-wrapper span {
+	font-size:14px;
+	display: block;
+	margin-bottom: 12px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.upload-wrapper label {
+	display: block;
+	line-height: 1.4;
+	font-size: 15px;
+}
+
+.upload-wrapper label input {
+	margin-right: 10px;
+}
+
+.upload-wrapper button {
+	border-radius: 2px;
+	background-color:  #4BC34B;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+	border: 0;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+	cursor: pointer;
+
+	width: 95px;
+	height: 32px;
+	margin-top: 10px;
+}
+
+.btn-upload {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+}
+
+.alert {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.alert-success {
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+
+/*	Files & Directories List	*/
+
+.all-items h3 {
+	opacity: 0;
+}
+
+.item-list {
+	list-style:none;
+	margin-left:10px;
+	max-width: 1500px;
+	text-align: center;
+	padding: 0;
+	opacity: 0;
+	font-size: 0;
+}
+
+.all-items.visible .item-list,
+.all-items.visible .upload-wrapper,
+.all-items.visible h3 {
+	opacity: 1;
+	transition: 1s;
+	pointer-events: auto;
+}
+
+.item-list > li {
+	box-sizing: border-box;
+	display: inline-block;
+	position: relative;
+	transition: 0.2s;
+
+	text-align:left;
+	font:normal 12px sans-serif;
+
+	background-color:#ffffff;
+	border:1px solid #dbe3e7;
+	border-radius: 3px;
+	box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.08);
+
+	margin: 0 12px 14px 0;
+	padding: 35px;
+	min-width: 350px;
+}
+
+.item-list > li.hidden {
+	opacity: 0.2;
+	pointer-events: none;
+}
+
+/* The folder or file image */
+
+.item-list .item-image {
+	display: block;
+	text-align: center;
+	box-shadow : 0 0 20px 8px #f3f3f3 inset;
+
+	width: 275px;
+	margin-bottom: 25px;
+	padding: 20px 0;
+	box-sizing: border-box;
+}
+
+/* The file or folder name */
+/* 
+.item-list h2 {
+	display: block;
+	font-size: 18px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	max-width: 200px;
+	margin:0;
+} */
+
+.item-list a {
+	text-decoration: none;
+	color: #0275d8;
+}
+
+.item-list a:hover {
+	text-decoration: underline;
+}
+
+/* File or Folder properties */
+
+.item-list .item-description {
+	margin-top: 20px;
+
+	color: #5d5d5d;
+	font-size: 14px;
+	line-height: 1.45;
+	white-space: normal;
+
+	max-width: 260px;
+	margin-bottom: 20px;
+
+	list-style: none;
+}
+
+.item-list .item-description li {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.item-list .item-description li:first-child {
+	display: block;
+  white-space: nowrap;
+  overflow: hidden;
+	text-overflow: ellipsis;
+	padding-bottom: 25px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.item-list .item-description li span {
+	font-weight: bold;
+}
+
+/* Upload button */
+
+.item-list button {
+	border-radius: 2px;
+	background-color:  #87bae1;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+	border: 0;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+	cursor: pointer;
+
+	width: 90px;
+	height: 32px;
+}
+
+.item-list button[disabled] {
+	background-color:  #c5c5c5;
+	cursor: not-allowed;
+}
+
+.item-image > img:hover {
+	cursor: pointer;
+}
+
+/* Making the list responsive */
+
+@media (max-width: 800px) {
+
+	.item-list .item-image {
+		width: 225px;
+	}
+
+	.item-list .item-description {
+		max-width: 225px;
+	}
+}
+
+@media (min-width: 1500px) {
+	.upload-wrapper {
+		margin: 0 550px 20px;
+	}
+}
+
+
+/*---------------------------
+	Breadcrumbs
+----------------------------*/
+
+ul.breadcrumbs {
+  padding: 5px 10px;
+  list-style: none;
+	background-color: #eee;
+	height: 18px;
+}
+
+/* Display list items side by side */
+ul.breadcrumbs li {
+  display: inline;
+  font-size: 13px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumbs li+li:before {
+  padding: 5px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumbs li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumbs li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.breadcrumb-content {
+	margin-top: 15px;
+}
+
+/*---------------------------
+	Empty Page
+----------------------------*/
+
+.empty {
+	opacity: 0;
+	transition: 0.6s;
+	pointer-events: none;
+	position: absolute;
+	left: 0;
+	top: 350px;
+	width: 100%;
+}
+
+.empty.visible {
+	opacity: 1;
+}
+
+.empty h3 {
+	font-size: 30px;
+}
+
+.empty h4 {
+	font-size: 20px;
+}
+
+/*---------------------------
+	Error Page
+----------------------------*/
+
+.error {
+	opacity: 0;
+	transition: 0.6s;
+	pointer-events: none;
+	position: absolute;
+	left: 0;
+	top: 100px;
+	width: 100%;
+}
+
+.error.visible {
+	opacity: 1;
+}
+
+.error h3 {
+	font-size: 40px;
+}

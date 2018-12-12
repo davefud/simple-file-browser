@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>File Browsing SPA</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />
+    <link href="Content/css/styles.css" rel="stylesheet" />
+    <link rel="icon" href="Content/images/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header class="compact">
+			<h2 class="items-count"></h2>
+			<h1><a href="#">File & Directory Browsing SPA</a></h1>
+
+			<div class="breadcrumb-content">
+					<ul id="breadcrumbs" class="breadcrumbs">
+							<!-- Generated breadcrumbs will go here -->
+					</ul>
+			</div>
+
+			<script id="template-breadcrumbs" type="text/template">
+				<li class="breadcrumb-link">
+					<a href="{{url}}">{{crumb}}</a>
+				</li>
+			</script>
+    </header>
+
+    <div class="main-content">
+			<div class="empty page">
+				<h3>No Files Found!</h3>
+				<h4>Use the uploader above to add files.</h4>
+			</div>
+			
+      <div class="all-items page">
+
+				<div class="upload-wrapper">
+						<div class="form-group">
+								<div id="updatePanelFile" class="alert" role="alert" style="display:none;">
+
+								</div>
+						</div>
+						<div class="btn-upload-wrapper">
+								<input type="file" id="file1" class="btn-input">
+						</div>
+						<input id="btnPostFile" class="btn-upload" type="button" value="Upload">
+				</div>
+
+				<ul id="item-list" class="item-list">
+					<!-- Generated list items will go here -->
+				</ul>
+				<script id="template-list-item" type="text/template">
+					<li>
+							<span class="item-image">
+								<img title="{{name}}" data-isdirectory="{{isDirectory}}" data-path="{{path}}" src="Content/images/{{image}}" height="130" alt="{{name}}" />
+							</span>
+							<ul class="item-description">
+								<li>{{spanOrHref}}</li>
+								<li><span>Last Modified: </span>{{lastModifiedTime}}</li>
+								<li><span>File Size: </span>{{size}}</li>
+								<li><span>Extension: </span>{{extension}}</li>
+							</ul>
+							<button class="delete" data-path="{{path}}" data-isdirectory="{{isDirectory}}">Delete</button>
+							<button class="move" data-path="{{path}}" data-isdirectory="{{isDirectory}}">Move</button>
+							<button class="copy" data-path="{{path}}" data-isdirectory="{{isDirectory}}">Copy</button>
+						</li>
+				</script>
+			</div>
+			
+      <div class="error page"><h3>Sorry, something went wrong!</h3></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="Scripts/main.js"></script>
+  </body>
+</html>

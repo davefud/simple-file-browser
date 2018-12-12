@@ -1,0 +1,92 @@
+c:\users\jon\documents\visual studio 2013\Projects\TestProject\TestProject\bin\TestProject.dll.config
+c:\users\jon\documents\visual studio 2013\Projects\TestProject\TestProject\bin\TestProject.dll
+c:\users\jon\documents\visual studio 2013\Projects\TestProject\TestProject\bin\TestProject.pdb
+c:\users\jon\documents\visual studio 2013\Projects\TestProject\TestProject\bin\System.Web.Helpers.dll
+c:\users\jon\documents\visual studio 2013\Projects\TestProject\TestProject\bin\System.Web.Mvc.dll
+c:\users\jon\documents\visual studio 2013\Projects\TestProject\TestProject\bin\System.Web.Razor.dll
+c:\users\jon\documents\visual studio 2013\Projects\TestProject\TestProject\bin\System.Web.Webpages.Deployment.dll
+c:\users\jon\documents\visual studio 2013\Projects\TestProject\TestProject\bin\System.Web.Webpages.dll
+c:\users\jon\documents\visual studio 2013\Projects\TestProject\TestProject\bin\System.Web.Webpages.Razor.dll
+c:\users\jon\documents\visual studio 2013\Projects\TestProject\TestProject\bin\System.Web.Razor.xml
+c:\users\jon\documents\visual studio 2013\Projects\TestProject\TestProject\bin\System.Web.Webpages.xml
+c:\users\jon\documents\visual studio 2013\Projects\TestProject\TestProject\bin\System.Web.Webpages.Deployment.xml
+c:\users\jon\documents\visual studio 2013\Projects\TestProject\TestProject\bin\System.Web.Webpages.Razor.xml
+c:\users\jon\documents\visual studio 2013\Projects\TestProject\TestProject\bin\System.Web.Helpers.xml
+c:\users\jon\documents\visual studio 2013\Projects\TestProject\TestProject\bin\System.Web.Mvc.xml
+c:\users\jon\documents\visual studio 2013\Projects\TestProject\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+c:\users\jon\documents\visual studio 2013\Projects\TestProject\TestProject\obj\Debug\TestProject.dll
+c:\users\jon\documents\visual studio 2013\Projects\TestProject\TestProject\obj\Debug\TestProject.pdb
+C:\dev-maplarge\TestProject\TestProject\bin\TestProject.dll.config
+C:\dev-maplarge\TestProject\TestProject\bin\TestProject.dll
+C:\dev-maplarge\TestProject\TestProject\bin\TestProject.pdb
+C:\dev-maplarge\TestProject\TestProject\bin\Microsoft.Web.Infrastructure.dll
+C:\dev-maplarge\TestProject\TestProject\bin\System.Web.Helpers.dll
+C:\dev-maplarge\TestProject\TestProject\bin\System.Web.Mvc.dll
+C:\dev-maplarge\TestProject\TestProject\bin\System.Web.Razor.dll
+C:\dev-maplarge\TestProject\TestProject\bin\System.Web.Webpages.Deployment.dll
+C:\dev-maplarge\TestProject\TestProject\bin\System.Web.Webpages.dll
+C:\dev-maplarge\TestProject\TestProject\bin\System.Web.Webpages.Razor.dll
+C:\dev-maplarge\TestProject\TestProject\bin\System.Web.Razor.xml
+C:\dev-maplarge\TestProject\TestProject\bin\System.Web.Webpages.xml
+C:\dev-maplarge\TestProject\TestProject\bin\System.Web.Webpages.Deployment.xml
+C:\dev-maplarge\TestProject\TestProject\bin\System.Web.Webpages.Razor.xml
+C:\dev-maplarge\TestProject\TestProject\bin\System.Web.Helpers.xml
+C:\dev-maplarge\TestProject\TestProject\bin\System.Web.Mvc.xml
+C:\dev-maplarge\TestProject\TestProject\obj\Debug\TestProject.csproj.CoreCompileInputs.cache
+C:\dev-maplarge\TestProject\TestProject\obj\Debug\TestProject.csproj.CopyComplete
+C:\dev-maplarge\TestProject\TestProject\obj\Debug\TestProject.dll
+C:\dev-maplarge\TestProject\TestProject\obj\Debug\TestProject.pdb
+C:\dev-maplarge\TestProject\TestProject\bin\Antlr3.Runtime.dll
+C:\dev-maplarge\TestProject\TestProject\bin\Newtonsoft.Json.dll
+C:\dev-maplarge\TestProject\TestProject\bin\System.Net.Http.Formatting.dll
+C:\dev-maplarge\TestProject\TestProject\bin\System.Web.Http.dll
+C:\dev-maplarge\TestProject\TestProject\bin\System.Web.Http.WebHost.dll
+C:\dev-maplarge\TestProject\TestProject\bin\System.Web.Optimization.dll
+C:\dev-maplarge\TestProject\TestProject\bin\WebGrease.dll
+C:\dev-maplarge\TestProject\TestProject\bin\Antlr3.Runtime.pdb
+C:\dev-maplarge\TestProject\TestProject\bin\Newtonsoft.Json.xml
+C:\dev-maplarge\TestProject\TestProject\bin\System.Net.Http.Formatting.xml
+C:\dev-maplarge\TestProject\TestProject\bin\System.Web.Http.xml
+C:\dev-maplarge\TestProject\TestProject\bin\System.Web.Http.WebHost.xml
+C:\dev-maplarge\TestProject\TestProject\bin\System.Web.Optimization.xml
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\TestProject.dll.config
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\TestProject.dll
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\TestProject.pdb
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\Antlr3.Runtime.dll
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\Microsoft.Web.Infrastructure.dll
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\Newtonsoft.Json.dll
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Net.Http.Formatting.dll
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Web.Helpers.dll
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Web.Http.dll
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Web.Http.WebHost.dll
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Web.Mvc.dll
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Web.Optimization.dll
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Web.Razor.dll
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Web.WebPages.Deployment.dll
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Web.WebPages.dll
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Web.WebPages.Razor.dll
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\WebGrease.dll
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\Antlr3.Runtime.pdb
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\Newtonsoft.Json.xml
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Net.Http.Formatting.xml
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Web.Helpers.xml
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Web.Http.xml
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Web.Http.WebHost.xml
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Web.Mvc.xml
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Web.Optimization.xml
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Web.Razor.xml
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Web.WebPages.xml
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Web.WebPages.Deployment.xml
+C:\dev-maplarge\web api fail\TestProject\TestProject\bin\System.Web.WebPages.Razor.xml
+C:\dev-maplarge\web api fail\TestProject\TestProject\obj\Debug\TestProject.csprojAssemblyReference.cache
+C:\dev-maplarge\web api fail\TestProject\TestProject\obj\Debug\TestProject.csproj.CoreCompileInputs.cache
+C:\dev-maplarge\web api fail\TestProject\TestProject\obj\Debug\TestProject.csproj.CopyComplete
+C:\dev-maplarge\web api fail\TestProject\TestProject\obj\Debug\TestProject.dll
+C:\dev-maplarge\web api fail\TestProject\TestProject\obj\Debug\TestProject.pdb
+C:\dev-maplarge\TestProject\TestProject\bin\Ninject.dll
+C:\dev-maplarge\TestProject\TestProject\bin\Ninject.xml
+C:\dev-maplarge\TestProject\TestProject\bin\Microsoft.AspNet.WebApi.Extensions.Compression.Server.dll
+C:\dev-maplarge\TestProject\TestProject\bin\Microsoft.IO.RecyclableMemoryStream.dll
+C:\dev-maplarge\TestProject\TestProject\bin\System.Net.Http.Extensions.Compression.Client.dll
+C:\dev-maplarge\TestProject\TestProject\bin\System.Net.Http.Extensions.Compression.Core.dll
+C:\dev-maplarge\TestProject\TestProject\obj\Debug\TestProject.csprojAssemblyReference.cache
